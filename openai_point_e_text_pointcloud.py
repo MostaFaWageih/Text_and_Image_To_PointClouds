@@ -100,6 +100,4 @@ mesh = marching_cubes_mesh(
     progress=True,
 )
 
-# Write the mesh to a PLY file to import into some other program.
-with open('Car.ply', 'wb') as f:
-    mesh.write_ply(f)
+

@@ -129,7 +129,3 @@ mesh = marching_cubes_mesh(
     grid_size=32, # increase to 128 for resolution used in evals
     progress=True,
 )
-
-# Write the mesh to a PLY file to import into some other program.
-with open('FFF.ply', 'wb') as f:
-    mesh.write_ply(f)
